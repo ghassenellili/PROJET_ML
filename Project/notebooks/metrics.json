@@ -1,0 +1,20 @@
+{
+  "model": "RandomForestRegressor",
+  "training_metrics": {
+    "MAE": 1974.1839466721456,
+    "RMSE": 3112.8152403889903,
+    "MAPE": 1.297218415145728,
+    "R2": 0.007822683483058812
+  },
+  "test_metrics": {
+    "MAE": 1982.4334909540798,
+    "RMSE": 3128.1409580785494,
+    "MAPE": 1.2819841661725644,
+    "R2": 0.005577410474406852
+  },
+  "dataset": {
+    "train_samples": 80000,
+    "test_samples": 20000,
+    "features": 70
+  }
+}

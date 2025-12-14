@@ -1,0 +1,37 @@
+
+================================================================================
+MODEL EVALUATION REPORT
+================================================================================
+
+MODEL INFORMATION
+  Model Type: Random Forest Regressor
+  Model Path: models/insurance_model.pkl
+
+DATASET INFORMATION
+  Training Samples: 80000
+  Test Samples: 20000
+  Features: 69
+
+TRAINING SET PERFORMANCE
+  MAE:  $3.03
+  RMSE: $59.66
+  MAPE: 0.05%
+  R²:   0.9996
+
+TEST SET PERFORMANCE
+  MAE:  $8.06
+  RMSE: $141.37
+  MAPE: 0.13%
+  R²:   0.9980
+
+INTERPRETATION
+  - The model explains 99.80% of the variance in test predictions
+  - Average prediction error (MAE): $8.06
+  - Root mean squared error (RMSE): $141.37
+  - Mean absolute percentage error: 0.13%
+
+MODEL GENERALIZATION
+  - R² Difference (Train - Test): 0.0017
+  - Status: Good generalization
+
+================================================================================
